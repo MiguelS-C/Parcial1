@@ -11,6 +11,7 @@ class Parcial1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Parcial",
       home: Inicio(),
     );
