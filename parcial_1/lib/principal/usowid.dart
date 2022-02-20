@@ -27,9 +27,7 @@ Widget mensaje(BuildContext context) {
   return Container(
     decoration: BoxDecoration(
         image: DecorationImage(
-            image: NetworkImage(
-                "https://i.pinimg.com/736x/b4/84/4c/b4844cb887b5a96d3793d9ad2ddce1ab.jpg"),
-            fit: BoxFit.cover)),
+            image: AssetImage("assets/img/pic-5.png"), fit: BoxFit.cover)),
     child: Center(
         child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
